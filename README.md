@@ -19,12 +19,15 @@ SWIG
 Additional pre-requisites for Microsoft Windows:
 
 Visual Studio 2015
+
 Python 3.5
+
 NumPy 1.11.0 or later
 
 2. Environment variable
 
 F:\Program\Tensorflow\cmake-3.8.1-win64-x64\cmake-3.8.1-win64-x64\bin
+
 C:\Program Files (x86)\MSBuild\12.0\Bin
 
 3. Command
