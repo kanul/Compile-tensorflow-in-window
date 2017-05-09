@@ -8,6 +8,8 @@ ref3] http://stackoverflow.com/questions/23497304/vs-2013-and-msbuild
 
 ref4] http://blog.naver.com/atelierjpro/220830743694
 
+ref5] http://www.kunal-chowdhury.com/2015/07/download-visualstudio-2015.html#ZqbX2gycoVlEX1g4.97
+
 1. Pre-requisites
 
 CMake version 3.5 or later.
