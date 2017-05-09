@@ -30,6 +30,8 @@ F:\Program\Tensorflow\cmake-3.8.1-win64-x64\cmake-3.8.1-win64-x64\bin
 
 C:\Program Files (x86)\MSBuild\12.0\Bin
 
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin
+
 3. Command
 
 (1) Install the pre-requisites detailed above, and set up your environment.
