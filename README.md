@@ -1,16 +1,16 @@
 # Compile-tensorflow-in-window
 
-ref1] https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/cmake/README.md
+Ref1] https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/cmake/README.md
 
-ref2] http://blog.naver.com/atelierjpro/220830797975
+Ref2] http://blog.naver.com/atelierjpro/220830797975
 
-ref3] http://stackoverflow.com/questions/23497304/vs-2013-and-msbuild
+Ref3] http://stackoverflow.com/questions/23497304/vs-2013-and-msbuild
 
-ref4] http://blog.naver.com/atelierjpro/220830743694
+Ref4] http://blog.naver.com/atelierjpro/220830743694
 
-ref5] http://www.kunal-chowdhury.com/2015/07/download-visualstudio-2015.html#ZqbX2gycoVlEX1g4.97
+Ref5] http://www.kunal-chowdhury.com/2015/07/download-visualstudio-2015.html#ZqbX2gycoVlEX1g4.97
 
-recccomand] Apperently my Anti-Virus was the problem. When I turned it off my installation worked.
+Recccomand] Apperently my Anti-Virus was the problem. When I turned it off my installation worked.
 
 1. Pre-requisites
 
