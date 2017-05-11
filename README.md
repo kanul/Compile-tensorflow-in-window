@@ -38,9 +38,9 @@ F:\Program\Tensorflow\cmake-3.8.1-win64-x64\cmake-3.8.1-win64-x64\bin
 
 The following commands assume that you are using the Windows Command Prompt (cmd.exe). You will need to set up your environment to use the appropriate toolchain, i.e. the 64-bit tools. (Some of the binary targets we will build are too large for the 32-bit tools, and they will fail with out-of-memory errors.) The typical command to do set up your environment is:
 
-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"
 
-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\vcvars64.bat
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\vcvars64.bat"
 
 (2) Clone the TensorFlow repository and create a working directory for your build:
 
@@ -52,10 +52,10 @@ D:\temp\tensorflow\tensorflow\contrib\cmake\build>
 
 (3) Invoke CMake to create Visual Studio solution and project files.
 
-cmake .. -A x64 -DCMAKE_BUILD_TYPE=Release ^
--DSWIG_EXECUTABLE="E:\Program\Tensorflow/swigwin-3.0.10/swigwin-3.0.10/swig.exe" ^
--DPYTHON_EXECUTABLE="C:\Users\kanul/Anaconda3/python.exe" ^
--DPYTHON_LIBRARIES="C:\Users\kanul/Anaconda3/libs/python35.lib"
+cmake .. -A x64 -DCMAKE_BUILD_TYPE=Release 
+-DSWIG_EXECUTABLE="E:\Program\Tensorflow\swigwin-3.0.10\swigwin-3.0.10\swig.exe" 
+-DPYTHON_EXECUTABLE="C:\Users\kanul\Anaconda3\python.exe" 
+-DPYTHON_LIBRARIES="C:\Users\kanul\Anaconda3\libs\python35.lib"
 
 (4) Invoke MSBuild to build TensorFlow.
 
