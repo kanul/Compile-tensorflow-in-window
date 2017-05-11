@@ -14,6 +14,8 @@ Recccomand] Apperently my Anti-Virus was the problem. When I turned it off my in
 
 1. Pre-requisites
 
+Windows7
+
 CMake version 3.5 or later.
 
 Git
@@ -52,7 +54,7 @@ D:\temp\tensorflow\tensorflow\contrib\cmake\build>
 
 (3) Invoke CMake to create Visual Studio solution and project files.
 
-cmake .. -A x64 -DCMAKE_BUILD_TYPE=Release 
+D:\...\build> cmake .. -A x64 -DCMAKE_BUILD_TYPE=Release 
 -DSWIG_EXECUTABLE="E:\Program\Tensorflow\swigwin-3.0.10\swigwin-3.0.10\swig.exe" 
 -DPYTHON_EXECUTABLE="C:\Users\kanul\Anaconda3\python.exe" 
 -DPYTHON_LIBRARIES="C:\Users\kanul\Anaconda3\libs\python35.lib"
@@ -62,6 +64,7 @@ cmake .. -A x64 -DCMAKE_BUILD_TYPE=Release
 To build the C++ example program, which will be created as a .exe executable in the subdirectory .\Release:
 
 D:\...\build> MSBuild /p:Configuration=Release tf_tutorials_example_trainer.vcxproj
+
 D:\...\build> Release\tf_tutorials_example_trainer.exe
 
 D:\...\build> MSBuild /p:Configuration=Release tf_python_build_pip_package.vcxproj
