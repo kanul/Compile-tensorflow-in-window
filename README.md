@@ -47,9 +47,13 @@ The following commands assume that you are using the Windows Command Prompt (cmd
 (2) Clone the TensorFlow repository and create a working directory for your build:
 
 D:\temp> git clone https://github.com/tensorflow/tensorflow.git
+
 D:\temp> cd tensorflow\tensorflow\contrib\cmake
+
 D:\temp\tensorflow\tensorflow\contrib\cmake> mkdir build
+
 D:\temp\tensorflow\tensorflow\contrib\cmake> cd build
+
 D:\temp\tensorflow\tensorflow\contrib\cmake\build>
 
 (3) Invoke CMake to create Visual Studio solution and project files.
